@@ -38,7 +38,7 @@ var db = {
         '</div>'
     ],
     templates: {
-        favicon: '<link rel="shortcut icon" href="../db.favicon.ico">',
+        favicon: '<link rel="shortcut icon" href="http://barenakedcoder.github.io/dashboard/db.favicon.ico">',
         html: '{{html}}',
         link: '<div class="db-ele db-link"><a href="{{url}}">{{text}}{{sublinks_html}}</a>{{notes_html}}</div>',
         mlink: '<div class="db-ele db-link">{{text}}{{mlinks}}{{notes_html}}</div>',
