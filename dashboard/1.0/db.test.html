@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DB</title>
+  <link href="http://barenakedcoder.github.io/dashboard/1.0/db.css" rel="stylesheet" type="text/css">
+  <script src="http://barenakedcoder.github.io/dashboard/1.0/db.js"></script>
+</head>
+
+<script type="text/x-dashboard" id="dashboard-data">
+
+title: DB TESTING
+set: THIS_FILE --> C:\_\IT\Projects\BareNakedCoder.github.io\www-github\dashboard\1.0\db.test.html
+
+tabs:
+ //-------------------------------------------------------------------
+ tab: Home
+  columns:
+	 column:
+	 h1: Testing Links
+	 h2: Simple
+	 link: Google --> https://www.google.com/
+	 br:
+	 h2: Sublinks
+	 link: Google App Engine --> https://cloud.google.com/appengine
+	  sublink: old --> https://appengine.google.com/
+	  sublink: new --> https://console.developer.google.com/
+	 br:
+	 h2: Prefix
+	 prefix: 3 --> https://cloud.google.com/
+	 link: appengine --> pre3:appengine
+	 link: compute --> pre3:compute
+	  sublink: sql --> pre3:sql
+	  br:
+	  h2: Notes
+  	 note: Here's a note
+  	 note: Here's another note with <green>green stuff</green>
+  	 note: Here's another note with <yellow>yellow stuff</yellow>
+  	 note: Here's another note with <red>red stuff</red>
+  	 note: Here's another note with <alert>alert stuff</alert>
+
+	 column-end:
+	 column:
+	 h1: Persons
+	 p: Don P --> parakin@gmail.com
+	 n: some text about don #1 with an "n"
+	 p: Don P ~ Code --> parakin@gmail.com
+	 p: Mizzing Email
+	 br:
+	 h2: Dropdowns
+	 dropdown: Pick Your Poison
+	 link: Google App Engine --> https://cloud.google.com/appengine
+	  link: old --> https://appengine.google.com/
+	  link: new --> https://console.developer.google.com/
+	  dropdown-end:
+   column-end:
+	 column:
+	 link: Google --> https://www.google.com/
+   column-end:
+	 column:
+	 link: Google --> https://www.google.com/
+   column-end:
+  columns-end:
+ tab-end:
+
+ //-------------------------------------------------------------------
+ tab: Test Calendar
+	calendar:
+   cal: 20150101 --> start
+	 cal: 20150331 --> end
+  calendar-end:
+ tab-end:
+
+tabs-end:
+
+</script>
+
+<body><h2>Loading</h2></body>
+</html>
